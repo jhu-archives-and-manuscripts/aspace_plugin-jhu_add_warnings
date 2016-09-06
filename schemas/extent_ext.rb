@@ -1,3 +1,3 @@
 {
-"container_summary" => {"type" => "string", "ifmissing" => "warning", "maxLength" => 65000},
+"container_summary" => {"type" => "string", "ifmissing" => "warn", "maxLength" => 65000},
 }
