@@ -9,7 +9,7 @@ This plugin
 - External documents
 
 ## Resources
-- Container summary
+- Container summary (extent schema)
 
 ## Containers
 
