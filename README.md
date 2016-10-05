@@ -5,14 +5,15 @@ This plugin extends the list of ArchivesSpace recommended fields to comply with 
 
 ## Accessions
 
-- Provenance
+- Provenance [AS-6](https://issues.library.jhu.edu/browse/AS-6)
+- Container summary (extent schema) [AS-116](https://issues.library.jhu.edu/browse/AS-116)
 
 ## Resources
-- Container summary (extent schema)
+- Container summary (extent schema) [AS-6](https://issues.library.jhu.edu/browse/AS-6)
 
 ## Containers
 
-- Barcodes
+- Barcodes [AS-6](https://issues.library.jhu.edu/browse/AS-6)
 
 ## Installation
 
