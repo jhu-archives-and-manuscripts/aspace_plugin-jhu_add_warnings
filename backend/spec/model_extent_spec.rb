@@ -1,9 +1,14 @@
 require 'spec_helper'
 
-describe 'Resource model' do
+describe 'Extent model' do
 
+  it "reports a warning if accession container_summary has no value" do
+    opts = {:container_summary => nil}
 
-  it "throws a warning when no container summary is provided" do
+    expect { create_accession(opts) }.to raise_error(JSONModel::ValidationException)
+  end
+
+  it "reports a warning if resource container_summary has no value" do
     opts = {:container_summary => nil}
 
     expect { create_resource(opts) }.to raise_error(JSONModel::ValidationException)
