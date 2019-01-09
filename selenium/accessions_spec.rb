@@ -45,6 +45,8 @@ describe "Accessions" do
     # cancel first to back out bad change
     @driver.find_element(:link, "Cancel").click
     @driver.find_element_with_text('//div[contains(@class, "warning")]', /Container Summary - Property was missing/)
+    @driver.find_element_with_text('//div[contains(@class, "warning")]', /Content Description - Property was missing/)
+    @driver.find_element_with_text('//div[contains(@class, "warning")]', /Access Restrictions Note - Property was missing/)
     @driver.find_element_with_text('//div[contains(@class, "warning")]', /Provenance - Property was missing/)
   end
 
